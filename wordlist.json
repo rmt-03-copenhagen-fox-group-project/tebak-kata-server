@@ -1,0 +1,210 @@
+[
+    {
+        "id" : 1,
+        "word":"Anggur"
+    },
+    {
+        "id" : 2,
+        "word":"Apel"
+    },
+    {
+        "id" : 3,
+        "word":"Alpukat"
+    },
+    {
+        "id" : 4,
+        "word":"Belimbing"
+    },
+    {
+        "id" : 5,
+        "word":"Bengkuang"
+    },
+    {
+        "id" : 6,
+        "word":"Ceri"
+    },
+    {
+        "id" : 7,
+        "word":"Cermai"
+    },
+    {
+        "id" : 8,
+        "word":"Delima"
+    },
+    {
+        "id" : 9,
+        "word":"Duku"
+    },
+    {
+        "id" : 10,
+        "word":"Durian"
+    },
+    {
+        "id" : 11,
+        "word":"Jambu"
+    },
+    {
+        "id" : 12,
+        "word":"Jeruk"
+    },
+    {
+        "id" : 13,
+        "word":"Kedongdong"
+    },
+    {
+        "id" : 14,
+        "word":"Kelapa"
+    },
+    {
+        "id" : 15,
+        "word":"Kesemek"
+    },
+    {
+        "id" : 1,
+        "word":"Kurma"
+    },
+    {
+        "id" : 16,
+        "word":"Malaka"
+    },
+    {
+        "id" : 17,
+        "word":"Markisa"
+    },
+    {
+        "id" : 18,
+        "word":"Mengkudu"
+    },
+    {
+        "id" : 19,
+        "word":"Nangka"
+    },
+    {
+        "id" : 20,
+        "word":"Pisang"
+    },
+    {
+        "id" : 21,
+        "word":"Rambutan"
+    },
+    {
+        "id" : 22,
+        "word":"Sawo"
+    },
+    {
+        "id" : 23,
+        "word":"Stroberi"
+    },
+    {
+        "id" : 24,
+        "word":"Pir"
+    },
+    {
+        "id" : 25,
+        "word":"Zaitun"
+    },
+    {
+        "id" : 26,
+        "word":"Mangga"
+    },
+    {
+        "id" : 26,
+        "word":"Naga"
+    },
+    {
+        "id" : 27,
+        "word":"Gandaria"
+    },
+    {
+        "id" : 28,
+        "word":"Kelengkeng"
+    },
+    {
+        "id" : 29,
+        "word":"Kesemek"
+    },
+    {
+        "id" : 30,
+        "word":"Manggis"
+    },
+    {
+        "id" : 31,
+        "word":"Nanas"
+    },
+    {
+        "id" : 32,
+        "word":"Pepaya"
+    },
+    {
+        "id" : 33,
+        "word":"Persik"
+    },
+    {
+        "id" : 34,
+        "word":"Srikaya"
+    },
+    {
+        "id" : 35,
+        "word":"Purnamasada"
+    },
+    {
+        "id" : 36,
+        "word":"Matoa"
+    },
+    {
+        "id" : 37,
+        "word":"Leci"
+    },
+    {
+        "id" : 38,
+        "word":"Buni"
+    },
+    {
+        "id" : 39,
+        "word":"Ceplukan"
+    },
+    {
+        "id" : 40,
+        "word":"Aprikot"
+    },
+    {
+        "id" : 41,
+        "word":"Almond"
+    },
+    {
+        "id" : 42,
+        "word":"Bluberi"
+    },
+    {
+        "id" : 43,
+        "word":"Cempedak"
+    },
+    {
+        "id" : 44,
+        "word":"Kawista"
+    },
+    {
+        "id" : 45,
+        "word":"Mentimun"
+    },
+    {
+        "id" : 46,
+        "word":"Malaka"
+    },
+    {
+        "id" : 47,
+        "word":"Lemon"
+    },
+    {
+        "id" : 48,
+        "word":"Coklat"
+    },
+    {
+        "id" : 49,
+        "word":"Tomat"
+    },
+    {
+        "id" : 50,
+        "word":"Buni"
+    }
+]
