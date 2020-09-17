@@ -39,8 +39,10 @@ function shuffleWord(word) {
 
 //untuk cek jawaban
 let answer = currentWord
+
 let counter = 0
 let score = 0
+
 function checkAnswer(answer, currentWord) {
     return answer.trim().toLowerCase() === currentWord.trim().toLowerCase()
 }
@@ -50,12 +52,16 @@ console.log(checkAnswer(answer, currentWord), ">>>>>> answer")
 
 
 //untuk cek skor
+
 function getScore(counter) {
 
     if (checkAnswer(answer, currentWord)) {
         counter++
         console.log(counter)
         score += (counter * 10)
+    }else{
+        score += 0
+
     }
     //counter ++
     return score
