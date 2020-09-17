@@ -40,6 +40,8 @@ function shuffleWord(word) {
 //untuk cek jawaban
 let answer = currentWord
 
+let counter = 0
+let score = 0
 
 function checkAnswer(answer, currentWord) {
     return answer.trim().toLowerCase() === currentWord.trim().toLowerCase()
@@ -50,23 +52,23 @@ console.log(checkAnswer(answer, currentWord), ">>>>>> answer")
 
 
 //untuk cek skor
-function getScore() { 
-    let counter = 0
-    let score = 0
+
+function getScore(counter) {
+
     if (checkAnswer(answer, currentWord)) {
         counter++
-        console.log(counter,"<<<<<<<<counter")
+        console.log(counter)
         score += (counter * 10)
-        console.log(score,"<<<<<score")
     }else{
         score += 0
+
     }
     //counter ++
     return score
 }
 
-// console.log(getScore(counter))
-console.log(getScore())
+console.log(getScore(counter))
+console.log(score)
 
 
-module.exports = { shuffleWord, checkAnswer, getScore}
+module.exports = { getRandom, shuffleWord, checkAnswer, getScore, currentWord, shuffle }
