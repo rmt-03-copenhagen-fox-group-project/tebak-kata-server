@@ -4,7 +4,7 @@ const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 const { shuffleWord, getRandom } = require('./word')
 
-const score = {
+let score = {
 }
 
 let correct = []
@@ -71,7 +71,6 @@ io.on('connect', function(socket) {
       shuffle = shuffleWord(currentWord) // hasil shufflean
 
       let data = { currentWord, shuffle }
-      // console.log(payload, '<<<<<<<<<<<<di app.js')
       correct = []
       submitted.clear()
       io.emit('newQuestion', { ...data, score})
@@ -80,6 +79,13 @@ io.on('connect', function(socket) {
     }
 
     io.emit('serverPlayers', score)
+  })
+
+  socket.on("exit", () => {
+    correct = []
+    submitted.clear()
+    score = {}
+    io.emit('exit')
   })
 })
 
