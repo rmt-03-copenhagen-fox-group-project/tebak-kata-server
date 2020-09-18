@@ -1,4 +1,5 @@
 const fs = require('fs')
+const cors = require("cors")
 const app = require('express')();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
@@ -11,6 +12,7 @@ let correct = []
 let counter = 0
 const submitted = new Set([])
 
+app.use(cors())
 
 let data = fs.readFileSync('./wordlist.json', 'UTF-8')
 let parse = JSON.parse(data)
