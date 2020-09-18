@@ -1,0 +1,25 @@
+{
+  "name": "tebak-kata-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmt-03-copenhagen-fox-group-project/tebak-kata-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmt-03-copenhagen-fox-group-project/tebak-kata-server/issues"
+  },
+  "homepage": "https://github.com/rmt-03-copenhagen-fox-group-project/tebak-kata-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
