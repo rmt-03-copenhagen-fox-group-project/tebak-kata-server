@@ -97,6 +97,12 @@ io.on('connect', function(socket) {
 })
 
 const PORT = process.env.PORT || 3000
+
+
+app.get('/', (req, res) => {
+  res.send(`<h1>Server: Tebak Kata</h1>`)
+})
+
 server.listen(PORT, () => {
   console.log('listening on *:3000');
-});
+})
