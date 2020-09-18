@@ -57,7 +57,7 @@ io.on('connect', function(socket) {
       correct.push(false) 
     }
 
-    if(counter === 5){
+    if(counter === 6){
       const [playerA, playerB] = Object.keys(score)
       if(score[playerA] === score[playerB]){
         io.emit('gameOverWithDraw', score)
