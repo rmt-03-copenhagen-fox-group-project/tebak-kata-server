@@ -61,9 +61,9 @@ io.on('connect', function(socket) {
 
       
       const winner = score[playerA] > score[playerB] ? playerA : playerB
-
       counter = 0
-      io.emit("gameOverWithWinner", {...score, winner})
+      io.emit('gameOverWithWinner', {...score, winner})
+      return
     }
 
     if(correct.some(e => e === true) || correct.length === 2){
