@@ -11,6 +11,7 @@ let correct = []
 let counter = 0
 const submitted = new Set([])
 
+
 let data = fs.readFileSync('./wordlist.json', 'UTF-8')
 let parse = JSON.parse(data)
 let currentWord = ''
@@ -21,7 +22,11 @@ io.on('connect', function(socket) {
   socket.emit('init', score)
 
   socket.on('newPlayer', function(player) {
-    console.log(player)
+    const numPlayers = Object.keys(score).length
+    if(numPlayers === 2){
+      io.to(socket.id).emit('roomExceeded', 'I just met you');
+      return
+    }
     score[player] = 0
     io.emit('serverPlayers', score)
   })
